@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+.material-symbols-outlined {    
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 48;
+  color: gold;    
+}
+
+body {
+  background-color: #AA0470;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 22rem;
+  height: 30rem;
+  background-color: #ffffff;
+  border-radius: 10px;  
+}
+
+.card > div {
+  width: 100%;
+}
+
+.card > .div-img {
+  height: 40%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-img > img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;  
+  object-fit: cover;
+}
+
+.card > .div-msg {
+  height: 40%;  
+  display: flex;
+  align-items: center;
+}
+
+.div-msg > p {
+  text-align: center;
+  padding: 1rem;
+  overflow: hidden;
+  font-size: 1.2rem;  
+}
+
+.card > .div-rating {
+  height: 10%;
+  background-color: #ded9d9;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+.div-rating > button {
+  margin: 0.5rem;
+  border: none;
+  border-radius: 50%;
+  background-color: #a9a8a8;
+  cursor: pointer;
+}
+
+.div-rating > button:hover,
+.div-rating > button:focus {
+  box-shadow: 0 0 10px #fa8704;
+}
+
+.card > .div-role {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;    
+}
+
+
+
